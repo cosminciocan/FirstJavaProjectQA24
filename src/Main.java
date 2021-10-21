@@ -24,10 +24,10 @@ public class Main {
         String myString = "rezultatul concatenarii: ";
         System.out.println(myString + (myInt + 2));
 
-        byte age = 40;
+        byte age = 10;
         String streetName = "Ionescu";
         short streetNo = 30;
-        String girlName = "Ioana";
+        String girlName = "Ana";
 
         String story =
                 girlName + " are " + age + ", si merge pe strada " + streetName + ",\n" +
