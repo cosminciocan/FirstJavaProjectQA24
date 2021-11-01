@@ -13,7 +13,7 @@ public class Lab2 {
         System.out.println(substractResult);
 
         double multiplyResult = calc.multiply(x, z);
-        System.out.println(substractResult);
+        System.out.println(multiplyResult);
 
         print.printStars();
 

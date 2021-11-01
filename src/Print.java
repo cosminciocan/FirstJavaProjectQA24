@@ -2,7 +2,7 @@ public class Print {
 
 
     public void printStars(){
-        System.out.println("" +
+        System.out.println(
                 "    *    \n" +
                 "   ***   \n" +
                 "  *****  \n" +
