@@ -32,6 +32,7 @@ public class Lab4 {
         int x = 2;
         x+=x+=x++ + ++x;
 //        x== ?
+        System.out.println(++x);
         System.out.println(x);
     }
 }
