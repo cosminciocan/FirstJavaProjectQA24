@@ -5,11 +5,9 @@ public class AppMain {
     public static void main(String[] args) {
         Dog rex = new Dog();
         rex.setName("Rex");
-        rex.setBreed("Labrador");
-        String breed = rex.getBreed();
-        rex.age = 1;
+        rex.setAge((byte) 1);
         System.out.println(rex.getName());
-        System.out.println(rex.age);
+        System.out.println(rex.getAge());
         rex.play();
         rex.setName("Blackie");
         System.out.println(rex.getName());
@@ -19,6 +17,8 @@ public class AppMain {
         freddie.setName("Freddie");
 
         Dog max = new Dog();
-        max.setBreed("Buldog");
+
+        Persian tommy = new Persian();
+        tommy.setName("Tommy");
     }
 }
