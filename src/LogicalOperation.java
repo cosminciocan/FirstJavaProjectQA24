@@ -1,5 +1,8 @@
 import AnimalRescue.Dog;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LogicalOperation {
 
     public int getHigherNumber(int first, int second) {
@@ -94,4 +97,31 @@ public class LogicalOperation {
         return false;
     }
 
+    public int[] getArrayWithoutNumber(int[] array, int number){
+        if (isValueInArray(array, number)) {
+            int[] secondArray = new int[array.length - 1];
+            for (int i = 0, j = 0; i < array.length; i++) {
+                if (array[i] != number) {
+                    secondArray[j] = array[i];
+                    j++;
+                }
+            }
+            return secondArray;
+        }
+        return array;
+    }
+
+    public List<Integer> getPopulatedList(int max){
+        List<Integer> myList = new ArrayList<>();
+        for (int i = 1; i <= max; i++){
+            myList.add(i);
+        }
+        return myList;
+    }
+
+    public void printListFromNumber(List<Integer> myList, int number){
+        for (int i = number; i <= myList.size(); i++){
+            System.out.println(myList.get(i-1));
+        }
+    }
 }

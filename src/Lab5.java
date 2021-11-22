@@ -20,22 +20,36 @@ public class Lab5 {
 
 //        System.out.println(op.isValueInArray(array3, 51));
 
-        String[] myStrings = {"a", "b", "c", "d"};
+//        String[] myStrings = {"a", "b", "c", "d"};
+//
+//        Dog rex = new Dog();
+//        rex.setName("Rex");
+//
+//        Dog max = new Dog();
+//        max.setName("Max");
+//        Dog tex = new Dog();
+//        tex.setName("Tex");
+//
+//        Dog[] myDogs = new Dog[3];
+//        myDogs[0] = rex;
+//        myDogs[1] = max;
+//        myDogs[2] = tex;
+//
+//        op.printArray(myDogs);
+//
+//        8. Creati o metoda care sa primeasca un parametru de tip array de
+//        numere, populat cu valori, si un parametru de tip numar. Metoda sa
+//        verifice daca numarul exista in array, si daca da, sa returneze array-ul
+//        primit, fara acel numar. Apelati metoda in main() pentru a verifica daca
+//        functioneaza.
 
-        Dog rex = new Dog();
-        rex.setName("Rex");
+        int[] myArray = op.populateArray(10);
+        int myInt = 5;
+        int[] resultArray = op.getArrayWithoutNumber(myArray, myInt);
 
-        Dog max = new Dog();
-        max.setName("Max");
-        Dog tex = new Dog();
-        tex.setName("Tex");
+        op.printArray(resultArray);
 
-        Dog[] myDogs = new Dog[3];
-        myDogs[0] = rex;
-        myDogs[1] = max;
-        myDogs[2] = tex;
 
-        op.printArray(myDogs);
 
 
     }
