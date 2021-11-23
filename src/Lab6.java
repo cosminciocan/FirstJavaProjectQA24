@@ -18,7 +18,7 @@ public class Lab6 {
 //        myList.clear();
 //        System.out.println(myList);
 
-        op.printListFromNumber(mySecondList, 500);
+        op.printListFromNumber(mySecondList, 50);
 
 
 

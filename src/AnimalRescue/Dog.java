@@ -1,11 +1,24 @@
 package AnimalRescue;
 
-public class Dog extends Animal {
+public abstract class Dog extends Animal {
 
 
-    public void wavingTail(){
-        System.out.println("da din coada");
+    @Override
+    public void eat() {
+
     }
+
+    @Override
+    public void sleep() {
+
+    }
+
+
+    public void speak(){
+        System.out.println("Woof woof!");
+    }
+
+    public abstract void wavingTail();
 
 
 }

@@ -1,6 +1,6 @@
 package AnimalRescue;
 
-public class Animal {
+public abstract class Animal {
 
     private byte age ;
     private float weight ;
@@ -48,19 +48,11 @@ public class Animal {
         this.color = color;
     }
 
-    public void eat(){
-        System.out.println("Eating");
-    }
+    public abstract void eat();
 
-    public void sleep(){
-        System.out.println("zzz");
-    }
+    public abstract void sleep();
 
-    public void play(){
-        System.out.println("playing");
-    }
+    public abstract void play();
 
-    public void speak(){
-        System.out.println("aaa");
-    }
+    public abstract void speak();
 }

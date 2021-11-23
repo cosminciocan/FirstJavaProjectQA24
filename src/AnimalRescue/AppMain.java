@@ -3,7 +3,7 @@ package AnimalRescue;
 public class AppMain {
 
     public static void main(String[] args) {
-        Dog rex = new Dog();
+        Rotwailer rex = new Rotwailer();
         rex.setName("Rex");
         rex.setAge((byte) 1);
         System.out.println(rex.getName());
@@ -12,11 +12,11 @@ public class AppMain {
         rex.setName("Blackie");
         System.out.println(rex.getName());
 
-        Dog freddie = new Dog();
+        Rotwailer freddie = new Rotwailer();
         System.out.println(freddie.getName());
         freddie.setName("Freddie");
 
-        Dog max = new Dog();
+        Rotwailer max = new Rotwailer();
 
         Persian tommy = new Persian();
         tommy.setName("Tommy");

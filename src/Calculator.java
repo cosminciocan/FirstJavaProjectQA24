@@ -1,9 +1,34 @@
+import java.util.List;
+
 public class Calculator {
 
     public double sum(int first, double second) {
         double result = first + second;
         return result;
     }
+
+     public double sum(float first, double second) {
+        double result = first + second;
+        return result;
+    }
+
+
+    public double sum(int first, double second, int third) {
+        double result = first + second + third;
+        return result;
+    }
+
+    public double sum(List<Integer> list) {
+        double result = 0;
+        for (Integer x : list){
+            result += x;
+        }
+       return result;
+    }
+
+
+
+
 
     public int substract(int first, int second) {
         int result = first - second;
