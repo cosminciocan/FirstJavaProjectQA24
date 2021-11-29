@@ -35,4 +35,14 @@ public class ReadFromKeyboard {
         }while (seconds > 0);
 
     }
+
+    public int[] getArray(int size){
+        int[] myArr = new int[size];
+        System.out.println("Introdu valorile din array.");
+        for (int i = 0; i < myArr.length; i++){
+            myArr[i] = getInt();
+        }
+        return myArr;
+    }
+
 }
